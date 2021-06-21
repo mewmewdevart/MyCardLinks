@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
 * {
     margin: 0 auto;
 }
@@ -5,7 +8,48 @@
 body {
     background-color: #2F2756;
 }
+
+body,html{
+    height:100%
+
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    background:linear-gradient(0deg,#56274e 0,#251f46);
+    font-family:Press Start\ 2P,cursive;
+    position:relative;
+}
+    
+body:after,body:before {
+    content:"";
+    display:block;
+    position:fixed;
+    width:90%;height:98%;
+    top:1%;left:5%;
+    box-shadow:0 0 0 1000px #000;
+    pointer-events:none;
+    z-index:2}
+        
+body:before{
+    border-radius:50%/2%
+}
+
+body:after{
+    border-radius:3%/50%;
+    background:linear-gradient(rgba(19,17,17,0) 50%,rgba(0,0,0,.25) 0),linear-gradient(90deg,rgba(255,0,0,.06),rgba(0,255,0,.02),rgba(0,0,255,.06));
+    background-size:100% 2px,3px 100%;
+}
+
 .CardPrincipal {
     border-style: none;
     margin-top: 05%;
+}
+.imageFooter {
+    text-align: center;
+    width: 100px;
+}
+.footerControl {
+    margin-bottom: 05%;
 }
