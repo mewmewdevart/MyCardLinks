@@ -1,0 +1,11 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #2F2756;
+}
+.CardPrincipal {
+    border-style: none;
+    margin-top: 05%;
+}
