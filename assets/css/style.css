@@ -18,7 +18,7 @@ body {
     display:flex;
     flex-direction:column;
     background:linear-gradient(0deg,#56274e 0,#251f46);
-    font-family:Press Start\ 2P,cursive;
+    font-family: 'Press Start 2P', cursive;
     position:relative;
 }
     
