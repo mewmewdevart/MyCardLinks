@@ -43,8 +43,11 @@ body:after{
 
 .CardPrincipal {
     border-style: none;
+    text-align: center;
     margin-top: 05%;
+    
 }
+
 
 .containerImg {
     position:fixed;
@@ -54,51 +57,51 @@ body:after{
     padding:0;
 }
 
-
-.footerControl {
-
-    margin-bottom: 05%;
-
-}
-
-.fab {
-    font-size: 30px;
-}
-
-.footerLink {
-    color: white;
-    margin-left: 5px;
-    border-radius: 3px;
-}
-
-a:link {
-    text-decoration: none!important;
-}
 .colorContainer {
     background-color: #2c2b33;
+    height: 50px;
 }
+
 
 h1 {
     color: rgb(240, 240, 240);
-    font-size: 25px;
+    font-size: 24px;
 }
 
 h2 {
     color: rgb(240, 240, 240);
     font-size: 14px;
 }
-.btnSkills {
-    text-align: center;
-    align-items: center;
 
+.btnSkills {
+    width: 45%;
 }
+
 .skills {
     background-color: #2d375c;
     color: white;
-    padding: 5px 10px 5px 10px;
-    margin-left: 5px;
+    margin-left: 4px;
     border-radius: 3px;
     font-size: 10px;
+    padding: 5px 10px 5px 10px;
 }
 
+.footerControl {
+    margin-bottom: 04%;
+}
 
+.fab, .fas {
+    font-size: 30px;
+}
+
+.footerLink {
+    color: rgb(240, 240, 240);
+}
+
+a:link {
+    text-decoration: none!important;
+    
+}
+a:hover {
+    color: #041a40;
+}
