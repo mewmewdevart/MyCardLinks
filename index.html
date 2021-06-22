@@ -6,6 +6,8 @@
     <meta name="author" content="Larissa">
     <meta name="keyword" content="Card Links, Game Developer, WebDeveloper">
 
+    <!-- Ico Web-->
+    <link rel="icon" type="image/png" href="assets/image/Eu.ico"/>
     <!-- Icons Fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
     <!-- ---- Bootstrap ---- -->
@@ -15,20 +17,21 @@
     <title> Card Portfolio - Larissa Cristina Benedito </title>
 </head>
 <body>
-    <div class="clouds">
+    <!-- 
+    <div class="clouds unselectable">
         <div class="cloud1"></div>
         <div class="cloud2"></div>
-    </div>
+    </div> -->
 
-    <div class="container CardPrincipal">
+    <div class="container unselectable CardPrincipal">
         <div class="MyPhoto" style="width: 15rem;">
-            <img class="card-img-top" src="assets/image/Eu.png" alt="Image card">
+            <img class="card-img-top " src="assets/image/Eu.png" alt="Image card">
         </div>
         <h1> LARISSA CRISTINA</h1>
         <h2> Game Developer | Web Developer </h2>
     </div>
-    
-    <div class="row justify-content-center align-self-center btnSkills ">
+
+    <div class=" container row justify-content-center align-self-center btnSkills ">
         <p class="skills "> HTML/CSS/JavaScript </p>
         <p class="skills "> BOOTSTRAP </p>
         <p class="skills "> FIGMA </p>
@@ -36,27 +39,22 @@
         <p class="skills "> C </p>
         <p class="skills "> GIT </p>
         <p class="skills "> GITHUB </p>
+    </div> 
+
+    <div class="container fixed-bottom text-center footers">
+        <a href="https://github.com/mewmewdevart" target="_blank" class="footerLink"><i class="fab fa-github-square"></i> Github</a>
+        <a href="https://www.linkedin.com/in/mewmewdevart/" target="_blank" class="footerLink"><i class="fab fa-linkedin"></i> Linkedin</a>
+        <a href="https://mewmewdevart.itch.io" target="_blank" class="footerLink"><i class="fab fa-itch-io"></i> Games</a>
+        <a href="https://mewmewdevart.github.io/v3-Portfolio/" target="_blank" class="footerLink"><i class="fas fa-laptop-code"></i> WebPortfolio(In Development)</a>
     </div>
 
-
-    <!-- 
-    <div class="container-fluid cloud ">
-        <img src="assets/image/cloud.gif" class="w-100" alt="">
+    <div class="container-fluid unselectable containerImg">
+        <img src="assets/image/bannerImg.png" class="w-100" alt="">
+        <div class="colorContainer"> </div>
     </div>
-    -->
 
-<footer class="footer">
-         <div class="container text-center  fixed-bottom footerControl">
-            <a href="#" class="footerLink"><i class="fab fa-github-square"></i> Github</a>
-            <a href="#" class="footerLink"><i class="fab fa-linkedin"></i> Linkedin </a>
-            <a href="#" class="footerLink"><i class="fas fa-laptop-code"></i> WebPortfolio </a>
-        </div>        
-</footer>
-
-<div class="container-fluid containerImg">
-    <img src="assets/image/bannerImg.png" class="w-100" alt="">
-    <div class="colorContainer"> </div>
-</div>
-
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
